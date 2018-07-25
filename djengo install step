@@ -1,0 +1,148 @@
+Django
+
+sudo apt-get update && sudo apt-get -y upgrade
+//insatll pip
+sudo apt-get install python3-pip
+sudo apt-get install python-pip
+
+//install virtualenv
+sudo pip3 install virtualenv 
+
+//mysql install
+sudo apt-get update
+sudo apt-get install mysql-server
+
+//create virtualenv
+virtualenv -p python3.5 venv
+
+//activate virtualenv
+source venv/bin/activate
+
+//install django
+pip install django==1.11
+
+//create django project
+django-admin startproject Demoapp
+
+//create app in django
+python manage.py startapp demo
+
+//run django project
+python manage.py runserver
+
+//Database model change 
+python manage.py makemigrations demo
+
+//Database create 
+python manage.py migrate 	
+
+//Create an admin user
+
+python manage.py createsuperuser
+
+//filter-dropdown
+pip install django-admin-list-filter-dropdown
+
+//sublime install step
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+//key
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCepXd6f7u46kKXj7OMEhLlq2daeywYQ6zZDDcY/b1emboufSj4+lsB9gubY55oRmtV0nYVBJhSjASpkYC0/sQXiIfAmFDBx0NF9FX7g/UP6xMbnfkhBbTyyuaQlhp6yOzMlrZlFH6m3cZoxaf+gxxh2V7BVT/sfJ3CwJUMoOoor1OsD+mT9WoD8dPW5a7sLWkEYruC8uYfbPvBEbEgy6pl2U1a5Y4fDFOwV3CRSpEPOlUmB5WKW2gW5X+W2MkRCp1qVhvFQ+VfkeY9pbwyAuFHJNOc7jl5RwskIPB0pOAYgAuKPthHGpNIjMJ7LGvFm8q9Sto40dXS6BeVZLAyicPf vivek@vivek-Vostro-3558ti
+
+pip install django-tabbed-admin
+
+//mysqlcilent error solve
+ sudo apt-get install libmysqlclient-dev
+
+sudo apt-get install python3-dev
+easy_install gevent
+pip install mysqlclient
+sudo apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
+
+sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev libssl-dev
+
+vpn connect
+
+ifconfig vpn_tun0 192.168.32.15 netmask 255.255.255.0
+
+//seting.py file database
+'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'astute',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'STORAGE_ENGINE': 'MyISAM / INNODB / ETC',
+        'OPTIONS': {
+            'sql_mode': 'traditional',
+        }
+    }
+
+
+
+
+echo 3 > /proc/sys/vm/drop_caches
+
+
+
+
+git command
+
+
+git init 
+
+git add 
+ 
+git push origin vivek-dev
+
+git pull origin
+
+git commit -m "tvs models add new two fields"
+
+git config --global user.email vivek.lintel@gmail.com
+
+git config --global user.name Vivek Mangukiya
+
+git status	
+
+git add tvs/models.py tvs/views.py static/admin/js/customer_tvs.js tvs/admin.py
+
+#change branch / switch to branch 
+
+git checkout branch name
+
+git branch -a
+
+git remote
+
+# listout of branch name
+git branch
+
+
+
+VPN Connection
+
+cd /usr/src/vpnclient/
+
+./vpnclient start
+
+./vpncmd
+
+VPN Client>accountconnect lintel
+
+VPN Client>accountget lintel
+
+ifdown vpn_tun0
+
+ifconfig vpn_tun0 192.168.32.231 netmask 255.255.255.0
+
+/etc/init.d/networking restart
+
+service networking stop
+
+ nano /etc/network/interface
+
+
+/home/vivek/Documents/v/Untitled Folder/numera/numera/apps/home
